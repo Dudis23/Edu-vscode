@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="contato" method="post">
+        <label for="Nome">Usuario:</label>
+        <input type="text" name="Nome"> <br>
+        <label for="Senha">Senha:</label>
+        <input type="password" name="Senha"> <br>
+        <label for="Sexo">Escolha seu sexo:</label>
+         <input type="radio" id="rbmasculino" name="Sexo" value="M" checked>
+        <label for="rbmasculino">Masculino</label>
+        <input type="radio" id="rbfeminino" name="Sexo" value="F">
+        <label for="rbfeminino">Feminino</label><br>
+        <label for="linguagens">Sua linguagens de programação favoritas:</label><br>
+        <input type="checkbox" name="linguagens" id="html" checked>html
+        <input type="checkbox" name="linguagens" id="css">css
+        <input type="checkbox" name="linguagens" id="js">js
+        <input type="checkbox" name="linguagens" id="python">python <br>
+        <label for="descricao">Descreva suas habilidades:</label><br>
+        <textarea name="descricao" cols="50" rows="6"></textarea><br>
+        <label for="nivellinguagem">Nível de proficiência:</label><br>
+        <select name="nivellinguagem" id="nivellinguagens">
+            <option value=""></option>
+            <option value="1">iniciante</option>
+            <option value="2">intermediário</option>
+            <option value="3">avançado</option>
+            <option value="4">expert</option>
+        </select><br>
+        <input type="reset" name="limpar" id="limpar" value="Limpar">
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
