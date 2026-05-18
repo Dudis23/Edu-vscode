@@ -1,0 +1,54 @@
+header{
+    background-color: red;
+    border-color: crimson;
+    border-radius: 1px; 
+    border-style: solid;
+    background-size: auto;
+}
+
+nav{
+    background-color: crimson;
+    color: white;
+    
+}
+
+nav a:link {
+    
+    background-color: gray;
+    color: black;
+    border-radius: 5px;
+
+
+}
+
+body {
+    background-color: rgb(230, 230, 230);
+    border: 5px;
+}
+
+footer {
+    color: white;
+    background-color: red;
+    border-color: crimson;
+    border-radius: 1px;
+    border-style: solid;
+    text-align: center;
+
+}
+
+article {
+    text-align: center;
+    
+}
+
+h3, h2, h1 {
+    color: black;
+}
+
+
+* {
+    text-align: center;
+}
+
+
+
